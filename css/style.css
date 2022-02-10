@@ -1,3 +1,52 @@
 .hidden {
   display: none;
 }
+
+img {
+  max-width: 100%;
+  position: relative;
+  top: 0;
+}
+
+.contents {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30vh;
+}
+
+#clock {
+  display: block;
+  font-size: 160px;
+  color: whitesmoke;
+  font-weight: 400;
+  margin: 0px;
+}
+
+#login-form input:first-child {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+#login-form input:first-child ::placeholder {
+  color: white;
+}
+
+#greeting {
+  color: white;
+  margin: 0;
+  padding: 40px;
+  font-size: 60px;
+}
+#quote span {
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#weather span {
+  color: aliceblue;
+}
